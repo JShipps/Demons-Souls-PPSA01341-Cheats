@@ -1,0 +1,40 @@
+{
+  "name": "Demon's Souls",
+  "id": "PPSA01341",
+  "version": "01.007.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Untouchable",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "388C19",
+          "on": "90909090909090",
+          "off": "41FF9090030000"
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "name": "Infi Stamina",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "33B0F0",
+          "on": "41BCD0070000",
+          "off": "41BC9CFFFFFF"
+        },
+        {
+          "offset": "33B10E",
+          "on": "90909090",
+          "off": "440F4DE0"
+        }
+      ],
+      "enabled": false
+    }
+  ],
+  "credits": [
+    "WSKYBPTSML"
+  ]
+}
